@@ -1,0 +1,144 @@
+.snipcart {
+  @apply font-sans text-base font-normal text-gray-800;
+}
+
+.snipcart-modal,
+.snipcart-modal__container,
+.snipcart-cart__content,
+.snipcart-cart-header,
+.snipcart-featured-payment-methods__title {
+  @apply bg-gray-50;
+}
+
+.snipcart__font--regular,
+.snipcart__font--primary,
+.snipcart__font--secondary,
+.snipcart__font--subtitle {
+  @apply font-sans leading-normal;
+}
+
+.snipcart__font--subtitle {
+  @apply text-lg font-semibold md:text-xl;
+}
+
+.snipcart-cart-button--highlight {
+  background-image: none;
+  @apply bg-blue-600 rounded;
+}
+
+.snipcart__box--badge-highlight {
+  background-image: none;
+  @apply font-medium text-white bg-blue-600;
+}
+
+.snipcart__actions--link {
+  @apply text-sm font-normal text-blue-600;
+}
+
+.snipcart-cart-summary-fees__notice {
+  @apply my-6 text-sm text-gray-500;
+}
+
+.snipcart-shipping-rates-list-item--highlight {
+  @apply bg-white border-blue-600;
+}
+
+.snipcart-form-radio {
+  @apply p-0 text-blue-600 border-gray-300 shadow-sm focus:ring-0;
+}
+
+.snipcart-form-radio + label {
+  @apply text-sm text-gray-500;
+}
+
+.snipcart-form-radio + label:before {
+  background-image: none;
+  @apply flex items-center w-4 h-4 min-w-0 min-h-0 border border-gray-300 rounded-full shadow-sm cursor-pointer;
+}
+
+.snipcart-form-radio:checked + label:before {
+  background-image: none;
+  @apply bg-blue-600;
+}
+
+.snipcart-form-radio:checked + label:after {
+  @apply hidden;
+}
+
+.snipcart-shipping-rates-list-item__price {
+  @apply text-sm leading-5 text-gray-900;
+}
+
+/* .snipcart-modal,
+.snipcart-cart-header,
+.snipcart-cart__secondary-header,
+.snipcart-modal__container {
+  @apply font-sans;
+}
+
+.snipcart-modal .snipcart-cart-header__close-button {
+  @apply text-gray-500;
+}
+
+.snipcart-form__field {
+  @apply pt-4;
+}
+
+.snipcart-input,
+.snipcart-form__select {
+  @apply w-full text-gray-900 placeholder-gray-400 bg-transparent border-gray-300 rounded-md shadow-sm focus:z-10 sm:text-sm focus:ring-0 focus:border-gray-300;
+}
+
+.snipcart-typeahead--invalid {
+  @apply border-red-500;
+}
+
+.snipcart-error-message--input {
+  @apply text-red-500;
+}
+
+.snipcart-cart-button--highlight {
+  background: none;
+  @apply px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500;
+}
+
+.snipcart__box--badge {
+  @apply text-blue-600 border-none bg-gray-50;
+}
+
+.snipcart__box--badge-highlight {
+  background: none;
+  @apply font-sans font-medium text-white bg-blue-600 border-none ring-offset-2 focus:ring-blue-500;
+}
+
+.snipcart__box {
+  @apply bg-white;
+} */
+.logogone {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .logogone {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+      .logogone  {
+            display:none !important;
+   }
+ }
+
+@media screen and (min-width: 320px) {
+      .move{
+            margin-left: 8px;
+   }
+ }
+
+@media screen and (max-width: 768px) {
+      .move  {
+            margin-left: 8px;
+   }
+ }
