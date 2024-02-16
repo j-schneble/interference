@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
         className="relative"
       />
    
-            <div id="bottom-banner"  className="fixed z-50 flex justify-between w-full p-4 mt-16 border-t-2 font border-zinc-600 top-64 start-0 bg-gray-50 dark:bg-black ">
+            <div className="fixed z-50 flex justify-between w-full p-4 mt-16 border-t-2 font border-zinc-600 top-64 start-0 bg-gray-50 dark:bg-black ">
     <div className="flex items-center mx-auto">
    
             
